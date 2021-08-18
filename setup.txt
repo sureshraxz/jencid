@@ -1,0 +1,17 @@
+1. Virtual machine
+	- we need to install a virtual machine - oracle VM virtual box - https://www.virtualbox.org/
+2. Install linux / centos as OS 
+	- we are going to use CentOS minimal iso - http://isoredirect.centos.org/centos/8/isos/x86_64/
+3. Creating a Lab 
+	3.1. create a virtual linux machine in virtual box
+		- Os and name -> Name: Jenkins, version - red hat(64 bit)
+		- memory size -> 2 GB
+		- file location and size -> 20 GB 
+		- finish 
+	3.2. Changing adapter settings on Jenkins VM created
+		- setting -> ntw -> enable ntw adapter  -> bridged adapter -> cable/ wireless based on connection 
+		- start 
+		- attach iso downloaded
+		- use arrows to select centos
+			- setting - lang, minimal, username & pswd 
+
